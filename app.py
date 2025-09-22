@@ -5,7 +5,7 @@ from utilis import clean_missing_values, extract_year, get_top_words, plot_publi
 # -------------------
 # Load Data
 # -------------------
-df = pd.read_csv(r"C:\Users\HP\Documents\PLP_SoftwareDev\python_class-work\Frameworks_Assignment\data\cord19_metadata_clean.csv")
+df = pd.read_csv("https://github.com/abiolalawal14/Python-Frameworks/blob/main/cord19_metadata_clean.csv")
 
 # -------------------
 # App Title
